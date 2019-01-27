@@ -5,6 +5,7 @@ exports.up = (knex) => {
     table.string("director").notNullable().defaultsTo("")
     table.string("year").notNullable().defaultsTo("")
     table.integer("my_rating").notNullable()
+    table.string("poster_url").notNullable().defaultsTo("")
   })
 }
 
